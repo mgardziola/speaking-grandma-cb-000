@@ -15,13 +15,13 @@
 def speak_to_grandma(phrase)
   
   if phrase == phrase.downcase
-    print 'HUH?! SPEAK UP, SONNY!'
+    puts 'HUH?! SPEAK UP, SONNY!'
     
    elsif phrase == 'I LOVE YOU GRANDMA!'
-    print 'I LOVE YOU TOO PUMPKIN!'
+    puts'I LOVE YOU TOO PUMPKIN!'
   
   else 
-    print 'HUH?! SPEAK UP, SONNY!'
+    puts 'HUH?! SPEAK UP, SONNY!'
   end
   
 end
